@@ -91,10 +91,6 @@ X1 = [[word2idx[w[0]] for w in s] for s in sentences]
 type(X1[0])
 X1[0]
 max_len = 50
-nums = [[1], [2, 3], [4, 5, 6]]
-sequence.pad_sequences(nums)
-nums = [[1], [2, 3], [4, 5, 6]]
-sequence.pad_sequences(nums,maxlen=2)
 X = sequence.pad_sequences(maxlen=max_len,
                   sequences=X1, padding="post",
                   value=num_words-1)
@@ -154,7 +150,7 @@ for w, true, pred in zip(X_test[i], y_true, p[0]):
 ![image](https://github.com/user-attachments/assets/e227ba95-8264-4bce-aefe-56106b8674ed)
 
 ### Sample Text Prediction
-![image](https://github.com/user-attachments/assets/5e376606-c80f-499f-bd74-455ed95bff35)
+![image](https://github.com/user-attachments/assets/316e2efe-9bf5-46d6-8c29-ad9be95a407b)
 
 
 
