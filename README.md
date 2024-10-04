@@ -47,8 +47,6 @@ from sklearn.model_selection import train_test_split
 from keras import layers
 from keras.models import Model
 data = pd.read_csv("ner_dataset.csv", encoding="latin1")
-data = pd.read_csv("ner_dataset.csv", encoding="latin1")
-data.head(50)
 data.head(50)
 print("Unique words in corpus:", data['Word'].nunique())
 print("Unique tags in corpus:", data['Tag'].nunique())
