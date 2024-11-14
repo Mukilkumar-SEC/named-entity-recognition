@@ -1,13 +1,13 @@
-# Named Entity Recognition
+## Named Entity Recognition
 
-## AIM
+### AIM
 
 To develop an LSTM-based model for recognizing the named entities in the text.
 
-## Problem Statement and Dataset
+### Problem Statement and Dataset
 This project aims to implement an LSTM-based model for named entity recognition (NER) in text, targeting the identification of entities like persons, organizations, and locations. By leveraging deep learning techniques, we seek to develop a robust system capable of accurately labeling named entities in unstructured text data
 
-## DESIGN STEPS
+### DESIGN STEPS
 
 ### Step 1 : 
 Import the necessary packages.
@@ -35,10 +35,7 @@ We compile the model and fit the train sets and validation sets,We plot the nece
 ## PROGRAM
 ```
 Name: Mukil kumar v
-
 Reg. No: 212222230087.
-```
-```
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
